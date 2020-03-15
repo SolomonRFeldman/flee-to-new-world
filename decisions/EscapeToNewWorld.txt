@@ -1,6 +1,6 @@
 country_decisions = {
 
-	por_flee_to_brazil = {
+	flee_to_brazil = {
 		major = yes
 		potential = {
 			NOT = { has_country_flag = changed_from_colonial_nation }
