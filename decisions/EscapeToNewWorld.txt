@@ -5,28 +5,16 @@ country_decisions = {
 		potential = {
 			NOT = { has_country_flag = changed_from_colonial_nation }
 			NOT = { has_country_flag = fled_to_brazil }
-			was_never_end_game_tag_trigger = yes
 			is_random_new_world = no
-			normal_or_historical_nations = yes
-			tag = POR
-			government = monarchy
 			any_subject_country = {
 				is_colonial_nation = yes
 				capital_scope = {
 					colonial_region = colonial_brazil
 				}
 			}
-			NOT = {
-				num_of_owned_provinces_with = {
-					continent = europe
-					value = 5
-				}
-			}
 		}
 		allow = {
-			adm_tech = 10
 			is_free_or_tributary_trigger = yes
-			is_at_war = no
 			custom_trigger_tooltip = {
 				tooltip = brazil_provinces_tooltip
 				any_subject_country = {
@@ -70,7 +58,6 @@ country_decisions = {
 					}
 				}          
 			}
-			swap_non_generic_missions = yes
 			remove_non_electors_emperors_from_empire_effect = yes
 			if = {
 				limit = {
@@ -106,7 +93,7 @@ country_decisions = {
 			set_country_flag = fled_to_brazil
 		}
 		ai_will_do = {
-			factor = 1
+			factor = 0
 		}
 	}
 
