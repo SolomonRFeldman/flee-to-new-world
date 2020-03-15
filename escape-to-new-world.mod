@@ -4,3 +4,4 @@ tags={
 }
 name="Escape to New World"
 supported_version="1.29.5"
+path="mod/escape-to-new-world"
