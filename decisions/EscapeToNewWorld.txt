@@ -3,6 +3,12 @@ country_decisions = {
 	flee_to_brazil = {
 		major = yes
 		potential = {
+			capital_scope = {
+				NOT = {
+					continent = north_america
+					continent = south_america
+				}
+			}
 			NOT = { has_country_flag = changed_from_colonial_nation }
 			NOT = { has_country_flag = fled_to_brazil }
 			is_random_new_world = no
