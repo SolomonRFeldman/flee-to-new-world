@@ -33,52 +33,7 @@ country_decisions = {
 			}
 		}
 		effect = {
-			change_tag = BRZ
-			every_subject_country = {
-				limit = {
-					is_colonial_nation = yes
-					capital_scope = {
-						colonial_region = colonial_brazil
-					}
-				}
-				FROM = { inherit = PREV }
-			}
-			custom_tooltip = brazil_move_capital_tooltip
-
-			hidden_effect = {
-        flee_effect = yes
-			}
-
-			custom_tooltip = brazil_portugal_tooltip
-			hidden_effect = {
-				if = {
-					limit = {
-						763 = {
-							owned_by = ROOT
-						}
-					}
-					763 = {
-						move_capital_effect = yes
-					}
-				}
-				else = {
-					random_owned_province = {
-						limit = {
-							colonial_region = colonial_brazil
-						}
-						move_capital_effect = yes
-					}
-				}          
-			}
-			remove_non_electors_emperors_from_empire_effect = yes
-			add_stability = -2
-			add_prestige = -25
-			if = {
-				limit = { has_custom_ideas = no }
-				country_event = { id = ideagroups.1 }
-			}
-			set_country_flag = changed_from_colonial_nation
-			set_country_flag = fled_to_brazil
+      flee_effect = { TAG = BRZ DEFAULT_CAPITAL = 763 REGION = colonial_brazil }
 		}
 		ai_will_do = {
 			factor = 0
