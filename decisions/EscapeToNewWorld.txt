@@ -50,7 +50,7 @@ country_decisions = {
 					limit = {
 						same_continent = ROOT
 					}
-					remove_core = BRZ
+					remove_core = ROOT
 					cede_province = previous_owner
 					add_core = owner
 					owner = {
@@ -72,7 +72,7 @@ country_decisions = {
 											same_continent = PREV
 											is_core = ROOT
 										}
-										remove_core = BRZ
+										remove_core = ROOT
 										cede_province = previous_owner
 									}
 								}
@@ -90,6 +90,7 @@ country_decisions = {
 					}
 				}
 			}
+
 			custom_tooltip = brazil_portugal_tooltip
 			hidden_effect = {
 				if = {
