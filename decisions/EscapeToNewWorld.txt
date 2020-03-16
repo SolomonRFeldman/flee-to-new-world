@@ -3,7 +3,7 @@ country_decisions = {
 	flee_to_brazil = {
 		major = yes
 		potential = {
-			flee_potential = yes
+			flee_potential = { COLONIAL_REGION = colonial_brazil }
 		}
 		allow = {
 			flee_allow = yes
