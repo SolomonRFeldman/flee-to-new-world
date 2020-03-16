@@ -1,4 +1,4 @@
-add_core_or_pu_old_land_effect = {
+fled_land_effect = {
 	capital_scope = {
 		remove_core = ROOT
 		cede_province = previous_owner
@@ -55,7 +55,7 @@ flee_effect = {
 	custom_tooltip = brazil_move_capital_tooltip
 
 	hidden_effect = {
-		add_core_or_pu_old_land_effect = yes
+		fled_land_effect = yes
 	}
 
 	custom_tooltip = brazil_portugal_tooltip
