@@ -1,3 +1,20 @@
+flee_potential = {
+  capital_scope = {
+		NOT = {
+			continent = north_america
+			continent = south_america
+		}
+	}
+	NOT = { has_country_flag = changed_from_colonial_nation }
+	NOT = { has_country_flag = fled_to_brazil }
+	any_subject_country = {
+		is_colonial_nation = yes
+		capital_scope = {
+			colonial_region = colonial_brazil
+		}
+	}
+}
+
 flee_allow = {
 	is_free_or_tributary_trigger = yes
 	custom_trigger_tooltip = {
