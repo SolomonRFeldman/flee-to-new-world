@@ -20,17 +20,7 @@ country_decisions = {
 			}
 		}
 		allow = {
-			is_free_or_tributary_trigger = yes
-			custom_trigger_tooltip = {
-				tooltip = brazil_provinces_tooltip
-				any_subject_country = {
-					is_colonial_nation = yes
-					capital_scope = {
-						colonial_region = colonial_brazil
-					}
-					num_of_cities = 20
-				}
-			}
+			flee_allow = yes
 		}
 		effect = {
       flee_effect = { TAG = BRZ DEFAULT_CAPITAL = 763 REGION = colonial_brazil }
