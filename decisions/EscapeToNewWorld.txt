@@ -38,6 +38,19 @@ country_decisions = {
 				FROM = { inherit = PREV }
 			}
 			custom_tooltip = brazil_move_capital_tooltip
+
+			hidden_effect = {
+				capital_scope = {
+					remove_core = BRZ
+					cede_province = previous_owner
+					add_core = owner
+					owner = {
+						ROOT = {
+              create_union = PREV
+						}
+					}
+				}
+			}
 			hidden_effect = {
 				if = {
 					limit = {
@@ -65,21 +78,14 @@ country_decisions = {
 				}
 				custom_tooltip = brazil_portugal_tooltip
 				hidden_effect = {
-					release = POR
-					create_union = POR
-					POR = {
-						change_government = monarchy
-						add_government_reform = autocracy_reform
-					}
-				}
-				hidden_effect = {
 					every_province = {
 						limit = {
 							continent = europe
 							is_core = ROOT
 						}
-						add_core = POR
 						remove_core = BRZ
+						cede_province = previous_owner
+						add_core = owner
 					}
 				}
 			}
