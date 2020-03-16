@@ -44,7 +44,10 @@ country_decisions = {
 					religion_group = christian
 				}
 				hidden_effect = {
-					capital_scope = {
+					random_core_province = {
+						limit = {
+							continent = europe
+						}
 						remove_core = BRZ
 						cede_province = previous_owner
 						add_core = owner
@@ -65,6 +68,19 @@ country_decisions = {
 						remove_core = BRZ
 						cede_province = previous_owner
 						add_core = owner
+					}
+				}
+				else = {
+					hidden_effect = {
+						every_province = {
+							limit = {
+								continent = europe
+								is_core = ROOT
+							}
+							cede_province = previous_owner
+							add_core = owner
+							cede_province = ROOT
+						}
 					}
 				}
 			}
