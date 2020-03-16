@@ -46,7 +46,10 @@ country_decisions = {
 				hidden_effect = {
 					random_core_province = {
 						limit = {
-							continent = europe
+							NOT = {
+								continent = north_america
+								continent = south_america
+							}
 						}
 						remove_core = BRZ
 						cede_province = previous_owner
@@ -62,7 +65,10 @@ country_decisions = {
 				hidden_effect = {
 					every_province = {
 						limit = {
-							continent = europe
+							NOT = {
+								continent = north_america
+								continent = south_america
+							}
 							is_core = ROOT
 						}
 						remove_core = BRZ
@@ -74,7 +80,10 @@ country_decisions = {
 					hidden_effect = {
 						every_province = {
 							limit = {
-								continent = europe
+								NOT = {
+									continent = north_america
+									continent = south_america
+								}
 								is_core = ROOT
 							}
 							cede_province = previous_owner
