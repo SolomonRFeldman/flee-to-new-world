@@ -39,15 +39,32 @@ country_decisions = {
 			}
 			custom_tooltip = brazil_move_capital_tooltip
 
-			hidden_effect = {
-				capital_scope = {
-					remove_core = BRZ
-					cede_province = previous_owner
-					add_core = owner
-					owner = {
-						ROOT = {
-              create_union = PREV
+			if = {
+				limit = {
+					religion_group = christian
+				}
+				hidden_effect = {
+					capital_scope = {
+						remove_core = BRZ
+						cede_province = previous_owner
+						add_core = owner
+						owner = {
+							ROOT = {
+								create_union = PREV
+							}
 						}
+					}
+				}
+				custom_tooltip = brazil_portugal_tooltip
+				hidden_effect = {
+					every_province = {
+						limit = {
+							continent = europe
+							is_core = ROOT
+						}
+						remove_core = BRZ
+						cede_province = previous_owner
+						add_core = owner
 					}
 				}
 			}
@@ -72,23 +89,6 @@ country_decisions = {
 				}          
 			}
 			remove_non_electors_emperors_from_empire_effect = yes
-			if = {
-				limit = {
-					religion_group = christian
-				}
-				custom_tooltip = brazil_portugal_tooltip
-				hidden_effect = {
-					every_province = {
-						limit = {
-							continent = europe
-							is_core = ROOT
-						}
-						remove_core = BRZ
-						cede_province = previous_owner
-						add_core = owner
-					}
-				}
-			}
 			add_stability = -2
 			add_prestige = -25
 			if = {
