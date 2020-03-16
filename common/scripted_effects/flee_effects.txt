@@ -83,6 +83,28 @@ flee_effect = {
 	add_stability = -2
 	add_prestige = -25
 	if = {
+		limit = {
+			culture_group = british
+			NOT = { primary_culture = american }
+		}
+		change_primary_culture = american
+	}
+	if = {
+		limit = {
+			culture_group = iberian
+			NOT = { primary_culture = portugese }
+			NOT = { primary_culture = mexican }
+		}
+		change_primary_culture = mexican
+	}
+	if = {
+		limit = {
+			primary_culture = portugese
+			NOT = { primary_culture = brazilian }
+		}
+		change_primary_culture = brazilian
+	}
+	if = {
 		limit = { has_custom_ideas = no }
 		country_event = { id = ideagroups.1 }
 	}
