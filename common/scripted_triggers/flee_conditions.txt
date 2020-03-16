@@ -22,7 +22,7 @@ flee_allow = {
 		any_subject_country = {
 			is_colonial_nation = yes
 			capital_scope = {
-				colonial_region = colonial_brazil
+				colonial_region = $COLONIAL_REGION$
 			}
 			num_of_cities = 20
 		}

@@ -6,7 +6,7 @@ country_decisions = {
 			flee_potential = { COLONIAL_REGION = colonial_brazil }
 		}
 		allow = {
-			flee_allow = yes
+			flee_allow = { COLONIAL_REGION = colonial_brazil }
 		}
 		effect = {
       flee_effect = { TAG = BRZ DEFAULT_CAPITAL = 763 REGION = colonial_brazil }
