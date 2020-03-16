@@ -47,9 +47,6 @@ country_decisions = {
 
 			hidden_effect = {
 				capital_scope = {
-					limit = {
-						same_continent = ROOT
-					}
 					remove_core = ROOT
 					cede_province = previous_owner
 					add_core = owner
