@@ -1,0 +1,16 @@
+namespace = flee_to_new_world
+
+country_event = {
+	id = flee_to_new_world.1
+	title = "flee_to_new_world_1_title"
+	desc = "flee_to_new_world_1_desc"
+	picture = DIPLOMACY_eventPicture
+	is_triggered_only = yes
+	trigger = { yes = yes }
+	option = {
+		desc = "flee_to_new_world_1_opt.1"
+	}
+	option = {
+		desc = "flee_to_new_world_1_opt.2"
+	}
+}
