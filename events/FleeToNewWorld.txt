@@ -46,6 +46,7 @@ country_event = {
 		  NOT = { government = monarchy }
 		}
     change_government = monarchy
+		add_legitimacy = 50
 	}
 	option = {
 		name = "flee_to_new_world_2_opt.3"
@@ -55,5 +56,6 @@ country_event = {
     change_government = republic
 		kill_ruler = yes
 		add_stability = -2
+		add_republican_tradition = 50
 	}
 }
