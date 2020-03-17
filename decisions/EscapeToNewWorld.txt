@@ -30,4 +30,25 @@ country_decisions = {
 		}
 	}
 
+	flee_to_texas = {
+		major = yes
+		potential = { flee_potential = { COLONIAL_REGION = colonial_mexico } }
+		allow = { 
+			flee_allow = { COLONIAL_REGION = colonial_mexico } 
+			any_subject_country = {
+				is_colonial_nation = yes
+				any_core_province = {
+					area = texas_area
+				}
+				any_core_province = {
+					area = coastal_prarie_area
+				}
+			}
+	  }
+		effect = { flee_effect = { TAG = TEX DEFAULT_CAPITAL = 888 COLONIAL_REGION = colonial_mexico } }
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
 }
