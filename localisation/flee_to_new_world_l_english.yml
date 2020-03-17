@@ -10,6 +10,11 @@
  flee_to_new_world_2_opt.2: "Take absolute control in these unstable times"
  flee_to_new_world_2_opt.3: "The [Root.Monarch.GetTitle] happened to "fall" off the ship on a stormy night, time for a Republic!"
 
+ flee_to_new_world_3_title: "New Missions"
+ flee_to_new_world_3_desc: "Our state is going through a range of changes that is rapidly changing our identity and ambitions. Unless we actively work against it we will see the goals of our contry change as a result of this."
+ flee_to_new_world_3_opt.1: "Yes, Please!"
+ flee_to_new_world_3_opt.2: "No, we cannot abandon our roots."
+
 
  flee_to_brazil_title: "Flee to Brazil"
  flee_to_brazil_desc: "Though it will be painful to leave [Root.GetName] behind, we shall surely create a glorious new Nation in Brazil."

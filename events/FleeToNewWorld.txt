@@ -59,3 +59,20 @@ country_event = {
 		add_republican_tradition = 50
 	}
 }
+
+country_event = {
+	id = flee_to_new_world.3
+	title = "flee_to_new_world_3_title"
+	desc = "flee_to_new_world_3_desc"
+	picture = DIPLOMACY_eventPicture
+	is_triggered_only = yes
+	trigger = { has_country_flag = fled_to_brazil }
+
+	option = {
+		name = "flee_to_new_world_3_opt.1"
+    swap_non_generic_missions = yes
+	}
+	option = {
+		name = "flee_to_new_world_3_opt.2"
+	}
+}
