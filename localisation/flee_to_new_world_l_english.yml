@@ -18,13 +18,13 @@
 
  flee_to_brazil_title: "Flee to Brazil"
  flee_to_brazil_desc: "Though it will be painful to leave [Root.GetName] behind, we shall surely create a glorious new Nation in Brazil."
- colonial_brazil_provinces_tooltip: "A colonial subject with a capital in the Brazil colonial region has at least 20 owned provinces."
+ colonial_brazil_provinces_tooltip: "A colonial subject with a capital in the Brazil colonial region has at least 15 owned provinces."
  colonial_brazil_move_capital_tooltip: "The capital will move to Rio de Janeiro if owned, or else to a random province in the Brazil colonial region."
 
  flee_to_america_title: "Flee to America"
  flee_to_america_desc: "Though it will be painful to leave [Root.GetName] behind, we shall surely create a glorious new Nation in America."
- colonial_eastern_america_provinces_tooltip: "A colonial subject with a capital in the Eastern America colonial region has at least 20 owned provinces."
- colonial_eastern_america_move_capital_tooltip: "The capital will move to Maryland if owned, or else to a random province in the Brazil colonial region."
+ colonial_eastern_america_provinces_tooltip: "A colonial subject with a capital in the Eastern America colonial region has at least 15 owned provinces."
+ colonial_eastern_america_move_capital_tooltip: "The capital will move to Maryland if owned, or else to a random province in the Eastern America colonial region."
 
  flee_to_mexico_title: "Flee to Mexico"
  flee_to_mexico_desc: "Though it will be painful to leave [Root.GetName] behind, we shall surely create a glorious new Nation in Mexico."
