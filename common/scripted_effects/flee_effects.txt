@@ -53,12 +53,9 @@ flee_effect = {
 		FROM = { inherit = PREV }
 	}
 
-	hidden_effect = {
-		fled_land_effect = yes
-	}
-
 	custom_tooltip = $REGION$_move_capital_tooltip
 	hidden_effect = {
+		fled_land_effect = yes
 		if = {
 			limit = {
 				$DEFAULT_CAPITAL$ = {
