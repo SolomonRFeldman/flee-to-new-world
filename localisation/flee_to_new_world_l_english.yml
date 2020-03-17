@@ -1,4 +1,9 @@
 ﻿l_english:
+ flee_to_new_world_1_title: "Home Control"
+ flee_to_new_world_1_desc: "We must decide wether to leave our home in a union or assume direct control."
+ flee_to_new_world_1_opt.1: "Leave in Union"
+ flee_to_new_world_1_opt.2: "Assume direct control"
+
  flee_to_brazil_title: "Flee to Brazil"
  flee_to_brazil_desc: "Though it will be painful to leave [Root.GetName] behind, we shall surely create a glorious new Nation in Brazil."
  colonial_brazil_provinces_tooltip: "A colonial subject with a capital in the Brazil colonial region has at least 20 owned provinces."
