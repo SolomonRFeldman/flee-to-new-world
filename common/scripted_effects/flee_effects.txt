@@ -49,13 +49,13 @@ flee_effect = {
 		limit = {
 			is_colonial_nation = yes
 			capital_scope = {
-				colonial_region = $REGION$
+				colonial_region = $COLONIAL_REGION$
 			}
 		}
 		FROM = { inherit = PREV }
 	}
 
-	custom_tooltip = $REGION$_move_capital_tooltip
+	custom_tooltip = $COLONIAL_REGION$_move_capital_tooltip
 	hidden_effect = {
 		fled_land_effect = yes
 		if = {
@@ -71,7 +71,7 @@ flee_effect = {
 		else = {
 			random_owned_province = {
 				limit = {
-					colonial_region = $REGION$
+					colonial_region = $COLONIAL_REGION$
 				}
 				move_capital_effect = yes
 			}

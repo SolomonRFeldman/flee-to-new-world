@@ -2,15 +2,9 @@ country_decisions = {
 
 	flee_to_brazil = {
 		major = yes
-		potential = {
-			flee_potential = { COLONIAL_REGION = colonial_brazil }
-		}
-		allow = {
-			flee_allow = { COLONIAL_REGION = colonial_brazil }
-		}
-		effect = {
-      flee_effect = { TAG = BRZ DEFAULT_CAPITAL = 763 REGION = colonial_brazil }
-		}
+		potential = { flee_potential = { COLONIAL_REGION = colonial_brazil } }
+		allow = { flee_allow = { COLONIAL_REGION = colonial_brazil } }
+		effect = { flee_effect = { TAG = BRZ DEFAULT_CAPITAL = 763 COLONIAL_REGION = colonial_brazil } }
 		ai_will_do = {
 			factor = 0
 		}
