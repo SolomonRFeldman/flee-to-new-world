@@ -52,13 +52,12 @@ flee_effect = {
 		}
 		FROM = { inherit = PREV }
 	}
-	custom_tooltip = brazil_move_capital_tooltip
 
 	hidden_effect = {
 		fled_land_effect = yes
 	}
 
-	custom_tooltip = brazil_portugal_tooltip
+	custom_tooltip = $REGION$_move_capital_tooltip
 	hidden_effect = {
 		if = {
 			limit = {
