@@ -24,7 +24,7 @@ flee_allow = {
 			capital_scope = {
 				colonial_region = $COLONIAL_REGION$
 			}
-			num_of_cities = 20
+			num_of_cities = 15
 		}
 	}
 }
