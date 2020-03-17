@@ -51,4 +51,14 @@ country_decisions = {
 		}
 	}
 
+	flee_to_canada = {
+		major = yes
+		potential = { flee_potential = { COLONIAL_REGION = colonial_canada } }
+		allow = { flee_allow = { COLONIAL_REGION = colonial_canada } }
+		effect = { flee_effect = { TAG = CAN DEFAULT_CAPITAL = 991 COLONIAL_REGION = colonial_canada } }
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
 }

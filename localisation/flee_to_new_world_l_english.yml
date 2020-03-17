@@ -34,4 +34,9 @@
  flee_to_texas_title: "Flee to Texas"
  flee_to_texas_desc: "Though it will be painful to leave [Root.GetName] behind, we shall surely create a glorious new Nation in Texas."
 
+ flee_to_canada_title: "Flee to Canada"
+ flee_to_canada_desc: "Though it will be painful to leave [Root.GetName] behind, we shall surely create a glorious new Nation in Canada."
+ colonial_canada_provinces_tooltip: "A colonial subject with a capital in the Canada colonial region has at least 15 owned provinces."
+ colonial_canada_move_capital_tooltip: "The capital will move to Ottawa if owned, or else to a random province in the Canada colonial region."
+
  
