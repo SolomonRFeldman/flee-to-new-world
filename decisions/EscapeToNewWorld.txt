@@ -20,4 +20,14 @@ country_decisions = {
 		}
 	}
 
+	flee_to_mexico = {
+		major = yes
+		potential = { flee_potential = { COLONIAL_REGION = colonial_mexico } }
+		allow = { flee_allow = { COLONIAL_REGION = colonial_mexico } }
+		effect = { flee_effect = { TAG = MEX DEFAULT_CAPITAL = 852 COLONIAL_REGION = colonial_mexico } }
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
 }

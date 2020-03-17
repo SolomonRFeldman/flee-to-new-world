@@ -26,4 +26,9 @@
  colonial_eastern_america_provinces_tooltip: "A colonial subject with a capital in the Eastern America colonial region has at least 20 owned provinces."
  colonial_eastern_america_move_capital_tooltip: "The capital will move to Maryland if owned, or else to a random province in the Brazil colonial region."
 
+ flee_to_mexico_title: "Flee to Mexico"
+ flee_to_mexico_desc: "Though it will be painful to leave [Root.GetName] behind, we shall surely create a glorious new Nation in Mexico."
+ colonial_mexico_provinces_tooltip: "A colonial subject with a capital in the Mexico colonial region has at least 15 owned provinces."
+ colonial_mexico_move_capital_tooltip: "The capital will move to Mexico if owned, or else to a random province in the Mexico colonial region."
+
  
