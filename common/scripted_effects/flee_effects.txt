@@ -108,4 +108,5 @@ flee_effect = {
 	}
 	set_country_flag = changed_from_colonial_nation
 	set_country_flag = fled_to_brazil
+	country_event = { id = flee_to_new_world.2 }
 }

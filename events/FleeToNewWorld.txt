@@ -28,3 +28,32 @@ country_event = {
 		}
 	}
 }
+
+country_event = {
+	id = flee_to_new_world.2
+	title = "flee_to_new_world_2_title"
+	desc = "flee_to_new_world_2_desc"
+	picture = DIPLOMACY_eventPicture
+	is_triggered_only = yes
+	trigger = { has_country_flag = fled_to_brazil }
+
+	option = {
+		name = "flee_to_new_world_2_opt.1"
+	}
+	option = {
+		name = "flee_to_new_world_2_opt.2"
+		trigger = {
+		  NOT = { government = monarchy }
+		}
+    change_government = monarchy
+	}
+	option = {
+		name = "flee_to_new_world_2_opt.3"
+		trigger = {
+		  NOT = { government = republic }
+		}
+    change_government = republic
+		kill_ruler = yes
+		add_stability = -2
+	}
+}
