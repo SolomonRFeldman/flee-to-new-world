@@ -13,14 +13,14 @@ country_event = {
 	}
 
 	option = {
-		desc = "flee_to_new_world_1_opt.1"
+		name = "flee_to_new_world_1_opt.1"
 		every_subject_country = {
 			limit = { has_country_flag = fled_country_to_be_integrated }
 			clr_country_flag = fled_country_to_be_integrated
 		}
 	}
 	option = {
-		desc = "flee_to_new_world_1_opt.2"
+		name = "flee_to_new_world_1_opt.2"
 		every_subject_country = {
 			limit = { has_country_flag = fled_country_to_be_integrated }
 			ROOT = { inherit = PREV }
