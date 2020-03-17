@@ -4,6 +4,13 @@
  flee_to_new_world_1_opt.1: "Leave in Union"
  flee_to_new_world_1_opt.2: "Assume direct control"
 
+ flee_to_new_world_2_title: "A chance for a new order."
+ flee_to_new_world_2_desc: "While we journey to settle in our new home there is talk of whether we should change the structure of our government."
+ flee_to_new_world_2_opt.1: "Keep the current structure"
+ flee_to_new_world_2_opt.2: "Take absolute control in these unstable times"
+ flee_to_new_world_2_opt.3: "The [Root.Monarch.GetTitle] happened to "fall" off the ship on a stormy night, time for a Republic!"
+
+
  flee_to_brazil_title: "Flee to Brazil"
  flee_to_brazil_desc: "Though it will be painful to leave [Root.GetName] behind, we shall surely create a glorious new Nation in Brazil."
  colonial_brazil_provinces_tooltip: "A colonial subject with a capital in the Brazil colonial region has at least 20 owned provinces."
