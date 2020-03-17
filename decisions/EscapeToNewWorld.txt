@@ -10,4 +10,14 @@ country_decisions = {
 		}
 	}
 
+	flee_to_america = {
+		major = yes
+		potential = { flee_potential = { COLONIAL_REGION = colonial_eastern_america } }
+		allow = { flee_allow = { COLONIAL_REGION = colonial_eastern_america } }
+		effect = { flee_effect = { TAG = USA DEFAULT_CAPITAL = 953 COLONIAL_REGION = colonial_eastern_america } }
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
 }
